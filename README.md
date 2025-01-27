@@ -44,3 +44,19 @@ The project follows a modular design, with the following key components:
 *   **`proxy_utils.c`:** Contains utility functions for logging, error handling, and other common tasks.
 
 The code is organized into a `src` directory for source files and an `include` directory for header files.
+ **structure**
+
+Proxy_web_server/
+├── res/
+├── src/
+│   ├── proxy_core.c
+│   ├── proxy_parse.c
+│   ├── proxy_cache.c
+│   ├── proxy_utils.c
+│   └── main.c
+├── include/
+│   ├── proxy_core.h
+│   ├── proxy_parse.h
+│   ├── proxy_cache.h
+│   └── proxy_utils.h
+└── Makefile
